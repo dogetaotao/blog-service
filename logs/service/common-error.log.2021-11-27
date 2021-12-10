@@ -1,0 +1,767 @@
+2021-11-27 00:13:16,644 ERROR 24332 nodejs.ClusterClientNoResponseError: client no response in 673425ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24332
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 01:04:00,614 ERROR 27676 [-/127.0.0.1/-/8ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.title as titlearticle.introduce as introducearticle.time as timearticle.view_co' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as idarticle.title as titlearticle.introduce as introducearticle.time as timearticle.view_count as view_counttype.typeName as typeNameFROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.title as titlearticle.introduce as introducearticle.time as timearticle.view_co' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as idarticle.title as titlearticle.introduce as introducearticle.time as timearticle.view_count as view_counttype.typeName as typeNameFROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 27676
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 01:05:21,081 ERROR 16464 [-/127.0.0.1/-/8ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.time as time ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM article LEFT JOIN type ON article.type_id = type.id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.time as time ,article.view_count as view_count ,type.typeName as typeName ,FROM article LEFT JOIN type ON article.type_id = type.id"
+name: "ER_PARSE_ERRORError"
+pid: 16464
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:07:24,490 ERROR 14556 [-/127.0.0.1/-/8ms GET /default/getArticleById] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getArticleById (D:\blog_dogett\service\app\controller\default\home.js:26:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 14556
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:07:30,084 ERROR 14556 [-/127.0.0.1/-/2ms GET /default/getArticleById] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getArticleById (D:\blog_dogett\service\app\controller\default\home.js:26:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 14556
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:14:42,653 ERROR 12620 [-/127.0.0.1/-/3ms GET /default/getArticleById] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getArticleById (D:\blog_dogett\service\app\controller\default\home.js:26:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 12620
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:17:22,833 ERROR 9836 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getArticleById (D:\blog_dogett\service\app\controller\default\home.js:26:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9836
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:13,669 ERROR 11748 [-/127.0.0.1/-/9ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:22,866 ERROR 11748 [-/127.0.0.1/-/3ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:24,590 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:25,366 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:26,120 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:26,600 ERROR 11748 [-/127.0.0.1/-/1ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:27,690 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:28,436 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:18:50,258 ERROR 11748 [-/127.0.0.1/-/2ms GET /default/getArticleById/1] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.id=1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.idWHERE article.id=1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 11748
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:21:49,164 ERROR 18444 [-/127.0.0.1/-/5ms GET /default/getArticleById/id=1] nodejs.ER_NON_UNIQ_ERRORError: ER_NON_UNIQ_ERROR: Column 'id' in where clause is ambiguous
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=id=1
+code: "ER_NON_UNIQ_ERROR"
+errno: 1052
+sqlMessage: "Column 'id' in where clause is ambiguous"
+sqlState: "23000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=id=1"
+name: "ER_NON_UNIQ_ERRORError"
+pid: 18444
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 12:22:18,227 ERROR 18444 [-/127.0.0.1/-/2ms GET /default/getArticleById/id=1] nodejs.ER_NON_UNIQ_ERRORError: ER_NON_UNIQ_ERROR: Column 'id' in where clause is ambiguous
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=id=1
+code: "ER_NON_UNIQ_ERROR"
+errno: 1052
+sqlMessage: "Column 'id' in where clause is ambiguous"
+sqlState: "23000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=id=1"
+name: "ER_NON_UNIQ_ERRORError"
+pid: 18444
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 22:49:29,005 ERROR 9568 nodejs.ClusterClientNoResponseError: client no response in 317628ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9568
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 22:57:02,651 ERROR 9568 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9568
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:25:05,186 ERROR 12512 [-/127.0.0.1/-/7ms GET /default/getArticleById/undefined] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d %H:%i:%s') as time ,article.view_count as view_count ,type.typeName as typeName ,type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id=undefined"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12512
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:42:46,295 ERROR 17952 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17952
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:43:08,303 ERROR 17952 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17952
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:47:46,995 ERROR 17952 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17952
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:48:33,536 ERROR 17952 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17952
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:48:54,093 ERROR 744 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 744
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:49:47,134 ERROR 744 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 744
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:51:21,505 ERROR 744 [-/127.0.0.1/-/2ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:30)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 744
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:51:28,651 ERROR 14204 [-/127.0.0.1/-/2ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14204
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:52:37,142 ERROR 14204 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14204
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:54:39,561 ERROR 14556 [-/127.0.0.1/-/6ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14556
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:54:46,389 ERROR 14556 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14556
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:55:05,154 ERROR 14556 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:51:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14556
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:59:12,638 ERROR 4940 [-/127.0.0.1/-/10ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:52:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4940
+hostname: DESKTOP-7GV4MC2
+
+2021-11-27 23:59:22,482 ERROR 4940 [-/127.0.0.1/-/1ms GET /default/getListById/1] nodejs.TypeError: Cannot read properties of undefined (reading 'id')
+    at HomeController.getListById (D:\blog_dogett\service\app\controller\default\home.js:52:32)
+    at Object.callFn (D:\blog_dogett\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog_dogett\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog_dogett\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog_dogett\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\blog_dogett\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4940
+hostname: DESKTOP-7GV4MC2
+

@@ -1,0 +1,9 @@
+2021-12-02 00:51:15,694 ERROR 22884 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 22884
+hostname: DESKTOP-7GV4MC2
+

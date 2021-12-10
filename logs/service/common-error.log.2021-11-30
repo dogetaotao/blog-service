@@ -1,0 +1,32 @@
+2021-11-29 01:05:09,162 ERROR 12728 nodejs.ClusterClientNoResponseError: client no response in 1819728ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12728
+hostname: DESKTOP-7GV4MC2
+
+2021-11-29 09:47:21,052 ERROR 12728 nodejs.ClusterClientNoResponseError: client no response in 31330994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 12728
+hostname: DESKTOP-7GV4MC2
+
+2021-11-30 11:41:12,822 ERROR 26688 nodejs.ClusterClientNoResponseError: client no response in 1810923ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 26688
+hostname: DESKTOP-7GV4MC2
+
+2021-11-30 11:55:49,552 ERROR 26688 nodejs.ClusterClientNoResponseError: client no response in 876647ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 26688
+hostname: DESKTOP-7GV4MC2
+

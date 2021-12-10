@@ -1,0 +1,36 @@
+2021-11-28 00:01:11,135 INFO 19548 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 00:01:11,135 INFO 19548 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 00:01:11,136 INFO 19548 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 00:01:13,108 INFO 1868 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 00:01:13,108 INFO 1868 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 00:01:13,108 INFO 1868 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 12:47:45,084 INFO 18172 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 12:47:45,084 INFO 18172 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 12:47:45,085 INFO 18172 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 12:47:46,033 INFO 20176 [Timer] D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 56533981ms at 2021-11-29 04:30:00.013
+2021-11-28 12:47:46,034 INFO 20176 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 40333967ms at 2021-11-29 00:00:00.001
+2021-11-28 12:47:46,036 INFO 20176 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 40334966ms at 2021-11-29 00:00:01.002
+2021-11-28 12:47:50,349 INFO 9108 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 12:47:50,349 INFO 9108 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 12:47:50,350 INFO 9108 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 13:39:12,509 INFO 4896 [Timer] D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 53447496ms at 2021-11-29 04:30:00.004
+2021-11-28 13:39:12,509 INFO 4896 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 37247491ms at 2021-11-29 00:00:00.000
+2021-11-28 13:39:12,510 INFO 4896 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37248491ms at 2021-11-29 00:00:01.001
+2021-11-28 13:39:12,241 INFO 9904 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 13:39:12,241 INFO 9904 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 13:39:12,242 INFO 9904 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 22:09:24,138 INFO 12728 [Timer] D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 22835865ms at 2021-11-29 04:30:00.003
+2021-11-28 22:09:24,139 INFO 12728 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 6635861ms at 2021-11-29 00:00:00.000
+2021-11-28 22:09:24,139 INFO 12728 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 6636861ms at 2021-11-29 00:00:01.000
+2021-11-28 22:09:23,840 INFO 12680 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 22:09:23,840 INFO 12680 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 22:09:23,840 INFO 12680 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-28 22:09:25,792 INFO 2516 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-11-28 22:09:25,792 INFO 2516 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-11-28 22:09:25,792 INFO 2516 [egg-schedule]: register schedule D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-11-29 00:00:00,050 INFO 2516 [Job#1638115200018134305972766001] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-11-29 00:00:00,068 INFO 2516 [Job#1638115200018134305972766001] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 17ms. 
+2021-11-29 00:00:00,032 INFO 12728 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86399977ms at 2021-11-30 00:00:00.008
+2021-11-29 00:00:01,007 INFO 2516 [Job#1638115201006134306856926001] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-11-29 00:00:01,018 INFO 2516 [Job#1638115201006134306856926001] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 11ms. 
+2021-11-29 00:00:01,009 INFO 12728 [Timer] D:\blog_dogett\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86399993ms at 2021-11-30 00:00:01.002

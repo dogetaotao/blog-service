@@ -1,0 +1,319 @@
+{
+  "keys": "D:\\blog_dogett\\service\\config\\config.default.js",
+  "middleware": "D:\\blog_dogett\\service\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "D:\\blog_dogett\\service\\config\\config.default.js",
+      "port": "D:\\blog_dogett\\service\\config\\config.default.js",
+      "user": "D:\\blog_dogett\\service\\config\\config.default.js",
+      "password": "D:\\blog_dogett\\service\\config\\config.default.js",
+      "database": "D:\\blog_dogett\\service\\config\\config.default.js"
+    },
+    "app": "D:\\blog_dogett\\service\\config\\config.default.js",
+    "agent": "D:\\blog_dogett\\service\\config\\config.default.js",
+    "default": {
+      "database": "D:\\blog_dogett\\service\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\blog_dogett\\service\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\blog_dogett\\service\\config\\config.default.js",
+      "type": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\blog_dogett\\service\\config\\config.default.js",
+    "protocolWhiteList": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "credentials": "D:\\blog_dogett\\service\\config\\config.default.js",
+    "allowMethods": "D:\\blog_dogett\\service\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\blog_dogett\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\blog_dogett\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\blog_dogett\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\blog_dogett\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\blog_dogett\\service\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\blog_dogett\\service\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\blog_dogett\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\blog_dogett\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\blog_dogett\\service\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\blog_dogett\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\blog_dogett\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\blog_dogett\\service\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\blog_dogett\\service\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\blog_dogett\\service\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\blog_dogett\\service\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\blog_dogett\\service\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\blog_dogett\\service\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\blog_dogett\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\blog_dogett\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\blog_dogett\\service\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\blog_dogett\\service\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\blog_dogett\\service\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\blog_dogett\\service\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\blog_dogett\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\blog_dogett\\service\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\blog_dogett\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\blog_dogett\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\blog_dogett\\service\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\blog_dogett\\service\\node_modules\\egg\\config\\config.default.js"
+}

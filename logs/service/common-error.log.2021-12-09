@@ -1,0 +1,152 @@
+2021-12-09 00:13:00,995 ERROR 16232 [-/::1/-/6ms GET /admin/delArticle/[object%20Object]] nodejs.ER_TRUNCATED_WRONG_VALUEError: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: '[object Object]'
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: DELETE FROM `article` WHERE `id` = '[object Object]'
+code: "ER_TRUNCATED_WRONG_VALUE"
+errno: 1292
+sqlMessage: "Truncated incorrect DOUBLE value: '[object Object]'"
+sqlState: "22007"
+index: 0
+sql: "DELETE FROM `article` WHERE `id` = '[object Object]'"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_TRUNCATED_WRONG_VALUEError"
+pid: 16232
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 00:42:32,042 ERROR 20776 nodejs.ClusterClientNoResponseError: client no response in 379777ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 20776
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 00:46:48,865 ERROR 20776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20776
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 01:54:53,392 ERROR 23556 [-/::1/-/6ms GET /admin/getArticleById/2] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d') as time ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id =2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d') as time ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id =2"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 23556
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 01:55:09,529 ERROR 23556 [-/::1/-/3ms GET /admin/getArticleById/2] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE' at line 1
+    at Query.Sequence._packetToError (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\blog_dogett\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\blog_dogett\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (D:\blog_dogett\service\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\blog_dogett\service\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\blog_dogett\service\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\blog_dogett\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\blog_dogett\service\node_modules\co\index.js:65:19)
+    at D:\blog_dogett\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d') as time ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id =2
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id ,article.title as title ,article.introduce as introduce ,article.article_content as article_content ,FROM_UNIXTIME(article.time , '%Y-%m-%d') as time ,type.typeName as typeName type.id as typeId FROM article LEFT JOIN type ON article.type_id = type.id WHERE article.id =2"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 23556
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 01:57:42,029 ERROR 20776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20776
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 18:02:23,587 ERROR 19920 nodejs.ClusterClientNoResponseError: client no response in 1812200ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19920
+hostname: DESKTOP-7GV4MC2
+
+2021-12-09 19:56:10,508 ERROR 19920 nodejs.ClusterClientNoResponseError: client no response in 6826879ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19920
+hostname: DESKTOP-7GV4MC2
+
+2021-12-10 10:35:44,982 ERROR 19920 nodejs.ClusterClientNoResponseError: client no response in 40088209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 19920
+hostname: DESKTOP-7GV4MC2
+

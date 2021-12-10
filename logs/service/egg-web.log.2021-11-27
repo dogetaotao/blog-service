@@ -1,0 +1,981 @@
+2021-11-27 00:00:01,049 INFO 20596 [egg-logrotator] app logger reload: got log-reload message
+2021-11-27 00:13:16,647 WARN 20596 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-11-27 00:13:19,247 WARN 20596 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-11-27 00:21:27,593 INFO 20632 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:21:27,737 INFO 20632 [egg-multipart] stream mode enable
+2021-11-27 00:21:28,214 INFO 20632 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:21:28,226 INFO 20632 [egg-security] use csrf middleware
+2021-11-27 00:21:28,232 INFO 20632 [egg-security] use methodnoallow middleware
+2021-11-27 00:21:28,236 INFO 20632 [egg-security] use noopen middleware
+2021-11-27 00:21:28,242 INFO 20632 [egg-security] use nosniff middleware
+2021-11-27 00:21:28,245 INFO 20632 [egg-security] use xssProtection middleware
+2021-11-27 00:21:28,247 INFO 20632 [egg-security] use xframe middleware
+2021-11-27 00:21:28,249 INFO 20632 [egg-security] use dta middleware
+2021-11-27 00:21:28,250 INFO 20632 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:21:28,299 INFO 20632 [egg:core] dump config after load, 20ms
+2021-11-27 00:21:28,368 INFO 20632 [egg-watcher:application] watcher start success
+2021-11-27 00:21:28,402 INFO 20632 [egg:core] dump config after ready, 23ms
+2021-11-27 00:22:47,547 INFO 12272 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:22:47,657 INFO 12272 [egg-multipart] stream mode enable
+2021-11-27 00:22:48,083 INFO 12272 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:22:48,094 INFO 12272 [egg-security] use csrf middleware
+2021-11-27 00:22:48,097 INFO 12272 [egg-security] use methodnoallow middleware
+2021-11-27 00:22:48,099 INFO 12272 [egg-security] use noopen middleware
+2021-11-27 00:22:48,104 INFO 12272 [egg-security] use nosniff middleware
+2021-11-27 00:22:48,109 INFO 12272 [egg-security] use xssProtection middleware
+2021-11-27 00:22:48,113 INFO 12272 [egg-security] use xframe middleware
+2021-11-27 00:22:48,116 INFO 12272 [egg-security] use dta middleware
+2021-11-27 00:22:48,116 INFO 12272 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:22:48,169 INFO 12272 [egg:core] dump config after load, 28ms
+2021-11-27 00:22:48,230 INFO 12272 [egg-watcher:application] watcher start success
+2021-11-27 00:22:48,299 INFO 12272 [egg:core] dump config after ready, 55ms
+2021-11-27 00:28:55,223 INFO 9252 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:28:55,269 INFO 9252 [egg-multipart] stream mode enable
+2021-11-27 00:28:55,269 INFO 9252 [egg-mysql] connecting test_user@mysql.com:3306/test
+2021-11-27 00:28:55,447 INFO 9252 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:28:55,450 INFO 9252 [egg-security] use csrf middleware
+2021-11-27 00:28:55,451 INFO 9252 [egg-security] use methodnoallow middleware
+2021-11-27 00:28:55,452 INFO 9252 [egg-security] use noopen middleware
+2021-11-27 00:28:55,453 INFO 9252 [egg-security] use nosniff middleware
+2021-11-27 00:28:55,454 INFO 9252 [egg-security] use xssProtection middleware
+2021-11-27 00:28:55,455 INFO 9252 [egg-security] use xframe middleware
+2021-11-27 00:28:55,455 INFO 9252 [egg-security] use dta middleware
+2021-11-27 00:28:55,455 INFO 9252 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:28:55,468 INFO 9252 [egg:core] dump config after load, 5ms
+2021-11-27 00:28:55,491 INFO 9252 [egg-watcher:application] watcher start success
+2021-11-27 00:29:24,125 INFO 20564 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:29:24,163 INFO 20564 [egg-multipart] stream mode enable
+2021-11-27 00:29:24,163 INFO 20564 [egg-mysql] connecting root@mysql.com:3306/test
+2021-11-27 00:29:24,347 INFO 20564 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:29:24,350 INFO 20564 [egg-security] use csrf middleware
+2021-11-27 00:29:24,352 INFO 20564 [egg-security] use methodnoallow middleware
+2021-11-27 00:29:24,352 INFO 20564 [egg-security] use noopen middleware
+2021-11-27 00:29:24,353 INFO 20564 [egg-security] use nosniff middleware
+2021-11-27 00:29:24,354 INFO 20564 [egg-security] use xssProtection middleware
+2021-11-27 00:29:24,355 INFO 20564 [egg-security] use xframe middleware
+2021-11-27 00:29:24,355 INFO 20564 [egg-security] use dta middleware
+2021-11-27 00:29:24,355 INFO 20564 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:29:24,370 INFO 20564 [egg:core] dump config after load, 5ms
+2021-11-27 00:29:24,396 INFO 20564 [egg-watcher:application] watcher start success
+2021-11-27 00:29:49,938 INFO 28756 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:29:49,973 INFO 28756 [egg-multipart] stream mode enable
+2021-11-27 00:29:49,974 INFO 28756 [egg-mysql] connecting root@mysql.com:3306/test
+2021-11-27 00:29:50,160 INFO 28756 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:29:50,163 INFO 28756 [egg-security] use csrf middleware
+2021-11-27 00:29:50,165 INFO 28756 [egg-security] use methodnoallow middleware
+2021-11-27 00:29:50,165 INFO 28756 [egg-security] use noopen middleware
+2021-11-27 00:29:50,166 INFO 28756 [egg-security] use nosniff middleware
+2021-11-27 00:29:50,167 INFO 28756 [egg-security] use xssProtection middleware
+2021-11-27 00:29:50,168 INFO 28756 [egg-security] use xframe middleware
+2021-11-27 00:29:50,168 INFO 28756 [egg-security] use dta middleware
+2021-11-27 00:29:50,168 INFO 28756 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:29:50,181 INFO 28756 [egg:core] dump config after load, 5ms
+2021-11-27 00:29:50,203 INFO 28756 [egg-watcher:application] watcher start success
+2021-11-27 00:40:23,634 INFO 19576 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:40:23,673 INFO 19576 [egg-multipart] stream mode enable
+2021-11-27 00:40:23,674 INFO 19576 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:40:23,864 INFO 19576 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:40:23,868 INFO 19576 [egg-security] use csrf middleware
+2021-11-27 00:40:23,869 INFO 19576 [egg-security] use methodnoallow middleware
+2021-11-27 00:40:23,870 INFO 19576 [egg-security] use noopen middleware
+2021-11-27 00:40:23,871 INFO 19576 [egg-security] use nosniff middleware
+2021-11-27 00:40:23,871 INFO 19576 [egg-security] use xssProtection middleware
+2021-11-27 00:40:23,872 INFO 19576 [egg-security] use xframe middleware
+2021-11-27 00:40:23,873 INFO 19576 [egg-security] use dta middleware
+2021-11-27 00:40:23,873 INFO 19576 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:40:23,886 INFO 19576 [egg:core] dump config after load, 6ms
+2021-11-27 00:40:23,912 INFO 19576 [egg-watcher:application] watcher start success
+2021-11-27 00:40:23,917 INFO 19576 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:40:23 GMT+0800 (香港标准时间)
+2021-11-27 00:40:23,926 INFO 19576 [egg:core] dump config after ready, 7ms
+2021-11-27 00:41:25,906 INFO 29904 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:41:25,942 INFO 29904 [egg-multipart] stream mode enable
+2021-11-27 00:41:25,943 INFO 29904 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:41:26,122 INFO 29904 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:41:26,126 INFO 29904 [egg-security] use csrf middleware
+2021-11-27 00:41:26,127 INFO 29904 [egg-security] use methodnoallow middleware
+2021-11-27 00:41:26,128 INFO 29904 [egg-security] use noopen middleware
+2021-11-27 00:41:26,129 INFO 29904 [egg-security] use nosniff middleware
+2021-11-27 00:41:26,130 INFO 29904 [egg-security] use xssProtection middleware
+2021-11-27 00:41:26,130 INFO 29904 [egg-security] use xframe middleware
+2021-11-27 00:41:26,131 INFO 29904 [egg-security] use dta middleware
+2021-11-27 00:41:26,131 INFO 29904 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:41:26,145 INFO 29904 [egg:core] dump config after load, 6ms
+2021-11-27 00:41:26,171 INFO 29904 [egg-watcher:application] watcher start success
+2021-11-27 00:41:26,174 INFO 29904 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:41:26 GMT+0800 (香港标准时间)
+2021-11-27 00:41:26,183 INFO 29904 [egg:core] dump config after ready, 7ms
+2021-11-27 00:41:55,373 INFO 9568 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:41:55,408 INFO 9568 [egg-multipart] stream mode enable
+2021-11-27 00:41:55,409 INFO 9568 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:41:55,590 INFO 9568 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:41:55,593 INFO 9568 [egg-security] use csrf middleware
+2021-11-27 00:41:55,595 INFO 9568 [egg-security] use methodnoallow middleware
+2021-11-27 00:41:55,595 INFO 9568 [egg-security] use noopen middleware
+2021-11-27 00:41:55,596 INFO 9568 [egg-security] use nosniff middleware
+2021-11-27 00:41:55,597 INFO 9568 [egg-security] use xssProtection middleware
+2021-11-27 00:41:55,598 INFO 9568 [egg-security] use xframe middleware
+2021-11-27 00:41:55,598 INFO 9568 [egg-security] use dta middleware
+2021-11-27 00:41:55,598 INFO 9568 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:41:55,611 INFO 9568 [egg:core] dump config after load, 6ms
+2021-11-27 00:41:55,637 INFO 9568 [egg-watcher:application] watcher start success
+2021-11-27 00:41:55,639 INFO 9568 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:41:55 GMT+0800 (香港标准时间)
+2021-11-27 00:41:55,647 INFO 9568 [egg:core] dump config after ready, 6ms
+2021-11-27 00:56:51,696 INFO 18584 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:56:51,732 INFO 18584 [egg-multipart] stream mode enable
+2021-11-27 00:56:51,733 INFO 18584 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:56:51,920 INFO 18584 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:56:51,924 INFO 18584 [egg-security] use csrf middleware
+2021-11-27 00:56:51,926 INFO 18584 [egg-security] use methodnoallow middleware
+2021-11-27 00:56:51,926 INFO 18584 [egg-security] use noopen middleware
+2021-11-27 00:56:51,927 INFO 18584 [egg-security] use nosniff middleware
+2021-11-27 00:56:51,928 INFO 18584 [egg-security] use xssProtection middleware
+2021-11-27 00:56:51,929 INFO 18584 [egg-security] use xframe middleware
+2021-11-27 00:56:51,930 INFO 18584 [egg-security] use dta middleware
+2021-11-27 00:56:51,930 INFO 18584 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:56:51,944 INFO 18584 [egg:core] dump config after load, 7ms
+2021-11-27 00:56:51,969 INFO 18584 [egg-watcher:application] watcher start success
+2021-11-27 00:56:51,973 INFO 18584 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:56:51 GMT+0800 (香港标准时间)
+2021-11-27 00:56:51,981 INFO 18584 [egg:core] dump config after ready, 6ms
+2021-11-27 00:56:53,647 INFO 24484 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:56:53,682 INFO 24484 [egg-multipart] stream mode enable
+2021-11-27 00:56:53,683 INFO 24484 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:56:53,871 INFO 24484 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:56:53,874 INFO 24484 [egg-security] use csrf middleware
+2021-11-27 00:56:53,876 INFO 24484 [egg-security] use methodnoallow middleware
+2021-11-27 00:56:53,876 INFO 24484 [egg-security] use noopen middleware
+2021-11-27 00:56:53,877 INFO 24484 [egg-security] use nosniff middleware
+2021-11-27 00:56:53,878 INFO 24484 [egg-security] use xssProtection middleware
+2021-11-27 00:56:53,879 INFO 24484 [egg-security] use xframe middleware
+2021-11-27 00:56:53,879 INFO 24484 [egg-security] use dta middleware
+2021-11-27 00:56:53,880 INFO 24484 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:56:53,892 INFO 24484 [egg:core] dump config after load, 5ms
+2021-11-27 00:56:53,918 INFO 24484 [egg-watcher:application] watcher start success
+2021-11-27 00:56:53,921 INFO 24484 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:56:53 GMT+0800 (香港标准时间)
+2021-11-27 00:56:53,931 INFO 24484 [egg:core] dump config after ready, 7ms
+2021-11-27 00:57:47,543 INFO 26344 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:57:47,579 INFO 26344 [egg-multipart] stream mode enable
+2021-11-27 00:57:47,580 INFO 26344 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:57:47,769 INFO 26344 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:57:47,773 INFO 26344 [egg-security] use csrf middleware
+2021-11-27 00:57:47,775 INFO 26344 [egg-security] use methodnoallow middleware
+2021-11-27 00:57:47,776 INFO 26344 [egg-security] use noopen middleware
+2021-11-27 00:57:47,777 INFO 26344 [egg-security] use nosniff middleware
+2021-11-27 00:57:47,777 INFO 26344 [egg-security] use xssProtection middleware
+2021-11-27 00:57:47,778 INFO 26344 [egg-security] use xframe middleware
+2021-11-27 00:57:47,779 INFO 26344 [egg-security] use dta middleware
+2021-11-27 00:57:47,779 INFO 26344 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:57:47,793 INFO 26344 [egg:core] dump config after load, 6ms
+2021-11-27 00:57:47,819 INFO 26344 [egg-watcher:application] watcher start success
+2021-11-27 00:57:47,822 INFO 26344 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:57:47 GMT+0800 (香港标准时间)
+2021-11-27 00:57:47,831 INFO 26344 [egg:core] dump config after ready, 7ms
+2021-11-27 00:58:39,059 INFO 10360 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:58:39,096 INFO 10360 [egg-multipart] stream mode enable
+2021-11-27 00:58:39,097 INFO 10360 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:58:39,279 INFO 10360 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:58:39,283 INFO 10360 [egg-security] use csrf middleware
+2021-11-27 00:58:39,284 INFO 10360 [egg-security] use methodnoallow middleware
+2021-11-27 00:58:39,285 INFO 10360 [egg-security] use noopen middleware
+2021-11-27 00:58:39,286 INFO 10360 [egg-security] use nosniff middleware
+2021-11-27 00:58:39,287 INFO 10360 [egg-security] use xssProtection middleware
+2021-11-27 00:58:39,287 INFO 10360 [egg-security] use xframe middleware
+2021-11-27 00:58:39,288 INFO 10360 [egg-security] use dta middleware
+2021-11-27 00:58:39,288 INFO 10360 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:58:39,301 INFO 10360 [egg:core] dump config after load, 6ms
+2021-11-27 00:58:39,326 INFO 10360 [egg-watcher:application] watcher start success
+2021-11-27 00:58:39,329 INFO 10360 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:58:39 GMT+0800 (香港标准时间)
+2021-11-27 00:58:39,337 INFO 10360 [egg:core] dump config after ready, 6ms
+2021-11-27 00:58:40,974 INFO 22532 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:58:41,011 INFO 22532 [egg-multipart] stream mode enable
+2021-11-27 00:58:41,011 INFO 22532 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:58:41,194 INFO 22532 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:58:41,197 INFO 22532 [egg-security] use csrf middleware
+2021-11-27 00:58:41,199 INFO 22532 [egg-security] use methodnoallow middleware
+2021-11-27 00:58:41,199 INFO 22532 [egg-security] use noopen middleware
+2021-11-27 00:58:41,201 INFO 22532 [egg-security] use nosniff middleware
+2021-11-27 00:58:41,202 INFO 22532 [egg-security] use xssProtection middleware
+2021-11-27 00:58:41,202 INFO 22532 [egg-security] use xframe middleware
+2021-11-27 00:58:41,203 INFO 22532 [egg-security] use dta middleware
+2021-11-27 00:58:41,203 INFO 22532 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:58:41,216 INFO 22532 [egg:core] dump config after load, 6ms
+2021-11-27 00:58:41,241 INFO 22532 [egg-watcher:application] watcher start success
+2021-11-27 00:58:41,245 INFO 22532 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:58:41 GMT+0800 (香港标准时间)
+2021-11-27 00:58:41,253 INFO 22532 [egg:core] dump config after ready, 6ms
+2021-11-27 00:59:24,885 INFO 10516 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:59:24,921 INFO 10516 [egg-multipart] stream mode enable
+2021-11-27 00:59:24,922 INFO 10516 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:59:25,106 INFO 10516 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:59:25,110 INFO 10516 [egg-security] use csrf middleware
+2021-11-27 00:59:25,111 INFO 10516 [egg-security] use methodnoallow middleware
+2021-11-27 00:59:25,112 INFO 10516 [egg-security] use noopen middleware
+2021-11-27 00:59:25,113 INFO 10516 [egg-security] use nosniff middleware
+2021-11-27 00:59:25,114 INFO 10516 [egg-security] use xssProtection middleware
+2021-11-27 00:59:25,114 INFO 10516 [egg-security] use xframe middleware
+2021-11-27 00:59:25,115 INFO 10516 [egg-security] use dta middleware
+2021-11-27 00:59:25,115 INFO 10516 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:59:25,128 INFO 10516 [egg:core] dump config after load, 6ms
+2021-11-27 00:59:25,155 INFO 10516 [egg-watcher:application] watcher start success
+2021-11-27 00:59:25,159 INFO 10516 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:59:25 GMT+0800 (香港标准时间)
+2021-11-27 00:59:25,167 INFO 10516 [egg:core] dump config after ready, 6ms
+2021-11-27 00:59:34,794 INFO 3816 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 00:59:34,831 INFO 3816 [egg-multipart] stream mode enable
+2021-11-27 00:59:34,832 INFO 3816 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 00:59:35,013 INFO 3816 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 00:59:35,016 INFO 3816 [egg-security] use csrf middleware
+2021-11-27 00:59:35,018 INFO 3816 [egg-security] use methodnoallow middleware
+2021-11-27 00:59:35,018 INFO 3816 [egg-security] use noopen middleware
+2021-11-27 00:59:35,019 INFO 3816 [egg-security] use nosniff middleware
+2021-11-27 00:59:35,020 INFO 3816 [egg-security] use xssProtection middleware
+2021-11-27 00:59:35,021 INFO 3816 [egg-security] use xframe middleware
+2021-11-27 00:59:35,022 INFO 3816 [egg-security] use dta middleware
+2021-11-27 00:59:35,022 INFO 3816 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 00:59:35,035 INFO 3816 [egg:core] dump config after load, 6ms
+2021-11-27 00:59:35,059 INFO 3816 [egg-watcher:application] watcher start success
+2021-11-27 00:59:35,062 INFO 3816 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 00:59:35 GMT+0800 (香港标准时间)
+2021-11-27 00:59:35,070 INFO 3816 [egg:core] dump config after ready, 6ms
+2021-11-27 01:00:17,364 INFO 17568 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:00:17,399 INFO 17568 [egg-multipart] stream mode enable
+2021-11-27 01:00:17,400 INFO 17568 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:00:17,581 INFO 17568 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:00:17,584 INFO 17568 [egg-security] use csrf middleware
+2021-11-27 01:00:17,586 INFO 17568 [egg-security] use methodnoallow middleware
+2021-11-27 01:00:17,586 INFO 17568 [egg-security] use noopen middleware
+2021-11-27 01:00:17,587 INFO 17568 [egg-security] use nosniff middleware
+2021-11-27 01:00:17,588 INFO 17568 [egg-security] use xssProtection middleware
+2021-11-27 01:00:17,589 INFO 17568 [egg-security] use xframe middleware
+2021-11-27 01:00:17,589 INFO 17568 [egg-security] use dta middleware
+2021-11-27 01:00:17,589 INFO 17568 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:00:17,603 INFO 17568 [egg:core] dump config after load, 5ms
+2021-11-27 01:00:17,630 INFO 17568 [egg-watcher:application] watcher start success
+2021-11-27 01:00:17,634 INFO 17568 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:00:17 GMT+0800 (香港标准时间)
+2021-11-27 01:00:17,642 INFO 17568 [egg:core] dump config after ready, 6ms
+2021-11-27 01:00:23,803 INFO 8396 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:00:23,839 INFO 8396 [egg-multipart] stream mode enable
+2021-11-27 01:00:23,840 INFO 8396 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:00:24,022 INFO 8396 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:00:24,026 INFO 8396 [egg-security] use csrf middleware
+2021-11-27 01:00:24,027 INFO 8396 [egg-security] use methodnoallow middleware
+2021-11-27 01:00:24,027 INFO 8396 [egg-security] use noopen middleware
+2021-11-27 01:00:24,028 INFO 8396 [egg-security] use nosniff middleware
+2021-11-27 01:00:24,029 INFO 8396 [egg-security] use xssProtection middleware
+2021-11-27 01:00:24,030 INFO 8396 [egg-security] use xframe middleware
+2021-11-27 01:00:24,030 INFO 8396 [egg-security] use dta middleware
+2021-11-27 01:00:24,030 INFO 8396 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:00:24,045 INFO 8396 [egg:core] dump config after load, 8ms
+2021-11-27 01:00:24,071 INFO 8396 [egg-watcher:application] watcher start success
+2021-11-27 01:00:24,075 INFO 8396 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:00:24 GMT+0800 (香港标准时间)
+2021-11-27 01:00:24,083 INFO 8396 [egg:core] dump config after ready, 6ms
+2021-11-27 01:00:33,684 INFO 25284 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:00:33,720 INFO 25284 [egg-multipart] stream mode enable
+2021-11-27 01:00:33,720 INFO 25284 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:00:33,904 INFO 25284 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:00:33,908 INFO 25284 [egg-security] use csrf middleware
+2021-11-27 01:00:33,909 INFO 25284 [egg-security] use methodnoallow middleware
+2021-11-27 01:00:33,910 INFO 25284 [egg-security] use noopen middleware
+2021-11-27 01:00:33,911 INFO 25284 [egg-security] use nosniff middleware
+2021-11-27 01:00:33,912 INFO 25284 [egg-security] use xssProtection middleware
+2021-11-27 01:00:33,913 INFO 25284 [egg-security] use xframe middleware
+2021-11-27 01:00:33,914 INFO 25284 [egg-security] use dta middleware
+2021-11-27 01:00:33,914 INFO 25284 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:00:33,926 INFO 25284 [egg:core] dump config after load, 5ms
+2021-11-27 01:00:33,952 INFO 25284 [egg-watcher:application] watcher start success
+2021-11-27 01:00:33,956 INFO 25284 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:00:33 GMT+0800 (香港标准时间)
+2021-11-27 01:00:33,964 INFO 25284 [egg:core] dump config after ready, 6ms
+2021-11-27 01:00:50,504 INFO 24132 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:00:50,539 INFO 24132 [egg-multipart] stream mode enable
+2021-11-27 01:00:50,539 INFO 24132 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:00:50,727 INFO 24132 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:00:50,730 INFO 24132 [egg-security] use csrf middleware
+2021-11-27 01:00:50,732 INFO 24132 [egg-security] use methodnoallow middleware
+2021-11-27 01:00:50,732 INFO 24132 [egg-security] use noopen middleware
+2021-11-27 01:00:50,733 INFO 24132 [egg-security] use nosniff middleware
+2021-11-27 01:00:50,734 INFO 24132 [egg-security] use xssProtection middleware
+2021-11-27 01:00:50,735 INFO 24132 [egg-security] use xframe middleware
+2021-11-27 01:00:50,736 INFO 24132 [egg-security] use dta middleware
+2021-11-27 01:00:50,736 INFO 24132 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:00:50,749 INFO 24132 [egg:core] dump config after load, 5ms
+2021-11-27 01:00:50,773 INFO 24132 [egg-watcher:application] watcher start success
+2021-11-27 01:00:50,776 INFO 24132 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:00:50 GMT+0800 (香港标准时间)
+2021-11-27 01:00:50,784 INFO 24132 [egg:core] dump config after ready, 6ms
+2021-11-27 01:01:12,613 INFO 30540 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:01:12,659 INFO 30540 [egg-multipart] stream mode enable
+2021-11-27 01:01:12,659 INFO 30540 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:01:12,842 INFO 30540 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:01:12,845 INFO 30540 [egg-security] use csrf middleware
+2021-11-27 01:01:12,846 INFO 30540 [egg-security] use methodnoallow middleware
+2021-11-27 01:01:12,847 INFO 30540 [egg-security] use noopen middleware
+2021-11-27 01:01:12,848 INFO 30540 [egg-security] use nosniff middleware
+2021-11-27 01:01:12,849 INFO 30540 [egg-security] use xssProtection middleware
+2021-11-27 01:01:12,850 INFO 30540 [egg-security] use xframe middleware
+2021-11-27 01:01:12,850 INFO 30540 [egg-security] use dta middleware
+2021-11-27 01:01:12,850 INFO 30540 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:01:12,863 INFO 30540 [egg:core] dump config after load, 5ms
+2021-11-27 01:01:12,889 INFO 30540 [egg-watcher:application] watcher start success
+2021-11-27 01:01:12,892 INFO 30540 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:01:12 GMT+0800 (香港标准时间)
+2021-11-27 01:01:12,900 INFO 30540 [egg:core] dump config after ready, 6ms
+2021-11-27 01:02:18,326 INFO 27260 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:02:18,362 INFO 27260 [egg-multipart] stream mode enable
+2021-11-27 01:02:18,363 INFO 27260 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:02:18,548 INFO 27260 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:02:18,552 INFO 27260 [egg-security] use csrf middleware
+2021-11-27 01:02:18,553 INFO 27260 [egg-security] use methodnoallow middleware
+2021-11-27 01:02:18,554 INFO 27260 [egg-security] use noopen middleware
+2021-11-27 01:02:18,555 INFO 27260 [egg-security] use nosniff middleware
+2021-11-27 01:02:18,555 INFO 27260 [egg-security] use xssProtection middleware
+2021-11-27 01:02:18,556 INFO 27260 [egg-security] use xframe middleware
+2021-11-27 01:02:18,557 INFO 27260 [egg-security] use dta middleware
+2021-11-27 01:02:18,557 INFO 27260 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:02:18,570 INFO 27260 [egg:core] dump config after load, 6ms
+2021-11-27 01:02:18,595 INFO 27260 [egg-watcher:application] watcher start success
+2021-11-27 01:02:18,598 INFO 27260 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:02:18 GMT+0800 (香港标准时间)
+2021-11-27 01:02:18,607 INFO 27260 [egg:core] dump config after ready, 7ms
+2021-11-27 01:02:37,324 INFO 3984 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:02:37,362 INFO 3984 [egg-multipart] stream mode enable
+2021-11-27 01:02:37,362 INFO 3984 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:02:37,547 INFO 3984 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:02:37,551 INFO 3984 [egg-security] use csrf middleware
+2021-11-27 01:02:37,553 INFO 3984 [egg-security] use methodnoallow middleware
+2021-11-27 01:02:37,553 INFO 3984 [egg-security] use noopen middleware
+2021-11-27 01:02:37,554 INFO 3984 [egg-security] use nosniff middleware
+2021-11-27 01:02:37,555 INFO 3984 [egg-security] use xssProtection middleware
+2021-11-27 01:02:37,556 INFO 3984 [egg-security] use xframe middleware
+2021-11-27 01:02:37,556 INFO 3984 [egg-security] use dta middleware
+2021-11-27 01:02:37,557 INFO 3984 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:02:37,569 INFO 3984 [egg:core] dump config after load, 5ms
+2021-11-27 01:02:37,597 INFO 3984 [egg-watcher:application] watcher start success
+2021-11-27 01:02:37,600 INFO 3984 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:02:37 GMT+0800 (香港标准时间)
+2021-11-27 01:02:37,608 INFO 3984 [egg:core] dump config after ready, 6ms
+2021-11-27 01:03:24,759 INFO 24212 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:03:24,796 INFO 24212 [egg-multipart] stream mode enable
+2021-11-27 01:03:24,796 INFO 24212 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:03:24,985 INFO 24212 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:03:24,988 INFO 24212 [egg-security] use csrf middleware
+2021-11-27 01:03:24,990 INFO 24212 [egg-security] use methodnoallow middleware
+2021-11-27 01:03:24,990 INFO 24212 [egg-security] use noopen middleware
+2021-11-27 01:03:24,992 INFO 24212 [egg-security] use nosniff middleware
+2021-11-27 01:03:24,992 INFO 24212 [egg-security] use xssProtection middleware
+2021-11-27 01:03:24,993 INFO 24212 [egg-security] use xframe middleware
+2021-11-27 01:03:24,994 INFO 24212 [egg-security] use dta middleware
+2021-11-27 01:03:24,994 INFO 24212 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:03:25,007 INFO 24212 [egg:core] dump config after load, 6ms
+2021-11-27 01:03:25,033 INFO 24212 [egg-watcher:application] watcher start success
+2021-11-27 01:03:25,037 INFO 24212 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:03:25 GMT+0800 (香港标准时间)
+2021-11-27 01:03:25,045 INFO 24212 [egg:core] dump config after ready, 6ms
+2021-11-27 01:03:36,635 INFO 27676 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:03:36,672 INFO 27676 [egg-multipart] stream mode enable
+2021-11-27 01:03:36,673 INFO 27676 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:03:36,883 INFO 27676 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:03:36,886 INFO 27676 [egg-security] use csrf middleware
+2021-11-27 01:03:36,888 INFO 27676 [egg-security] use methodnoallow middleware
+2021-11-27 01:03:36,888 INFO 27676 [egg-security] use noopen middleware
+2021-11-27 01:03:36,889 INFO 27676 [egg-security] use nosniff middleware
+2021-11-27 01:03:36,890 INFO 27676 [egg-security] use xssProtection middleware
+2021-11-27 01:03:36,891 INFO 27676 [egg-security] use xframe middleware
+2021-11-27 01:03:36,891 INFO 27676 [egg-security] use dta middleware
+2021-11-27 01:03:36,891 INFO 27676 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:03:36,905 INFO 27676 [egg:core] dump config after load, 6ms
+2021-11-27 01:03:36,930 INFO 27676 [egg-watcher:application] watcher start success
+2021-11-27 01:03:36,934 INFO 27676 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:03:36 GMT+0800 (香港标准时间)
+2021-11-27 01:03:36,942 INFO 27676 [egg:core] dump config after ready, 6ms
+2021-11-27 01:05:03,496 INFO 16464 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:05:03,539 INFO 16464 [egg-multipart] stream mode enable
+2021-11-27 01:05:03,539 INFO 16464 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:05:03,731 INFO 16464 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:05:03,735 INFO 16464 [egg-security] use csrf middleware
+2021-11-27 01:05:03,736 INFO 16464 [egg-security] use methodnoallow middleware
+2021-11-27 01:05:03,737 INFO 16464 [egg-security] use noopen middleware
+2021-11-27 01:05:03,738 INFO 16464 [egg-security] use nosniff middleware
+2021-11-27 01:05:03,738 INFO 16464 [egg-security] use xssProtection middleware
+2021-11-27 01:05:03,739 INFO 16464 [egg-security] use xframe middleware
+2021-11-27 01:05:03,740 INFO 16464 [egg-security] use dta middleware
+2021-11-27 01:05:03,740 INFO 16464 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:05:03,754 INFO 16464 [egg:core] dump config after load, 7ms
+2021-11-27 01:05:03,779 INFO 16464 [egg-watcher:application] watcher start success
+2021-11-27 01:05:03,783 INFO 16464 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:05:03 GMT+0800 (香港标准时间)
+2021-11-27 01:05:03,792 INFO 16464 [egg:core] dump config after ready, 6ms
+2021-11-27 01:05:21,379 INFO 30092 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:05:21,422 INFO 30092 [egg-multipart] stream mode enable
+2021-11-27 01:05:21,422 INFO 30092 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:05:21,602 INFO 30092 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:05:21,605 INFO 30092 [egg-security] use csrf middleware
+2021-11-27 01:05:21,606 INFO 30092 [egg-security] use methodnoallow middleware
+2021-11-27 01:05:21,607 INFO 30092 [egg-security] use noopen middleware
+2021-11-27 01:05:21,608 INFO 30092 [egg-security] use nosniff middleware
+2021-11-27 01:05:21,609 INFO 30092 [egg-security] use xssProtection middleware
+2021-11-27 01:05:21,609 INFO 30092 [egg-security] use xframe middleware
+2021-11-27 01:05:21,610 INFO 30092 [egg-security] use dta middleware
+2021-11-27 01:05:21,610 INFO 30092 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:05:21,623 INFO 30092 [egg:core] dump config after load, 6ms
+2021-11-27 01:05:21,648 INFO 30092 [egg-watcher:application] watcher start success
+2021-11-27 01:05:21,651 INFO 30092 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:05:21 GMT+0800 (香港标准时间)
+2021-11-27 01:05:21,660 INFO 30092 [egg:core] dump config after ready, 7ms
+2021-11-27 01:17:14,853 INFO 26612 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:17:14,890 INFO 26612 [egg-multipart] stream mode enable
+2021-11-27 01:17:14,890 INFO 26612 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:17:15,083 INFO 26612 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:17:15,087 INFO 26612 [egg-security] use csrf middleware
+2021-11-27 01:17:15,089 INFO 26612 [egg-security] use methodnoallow middleware
+2021-11-27 01:17:15,090 INFO 26612 [egg-security] use noopen middleware
+2021-11-27 01:17:15,091 INFO 26612 [egg-security] use nosniff middleware
+2021-11-27 01:17:15,091 INFO 26612 [egg-security] use xssProtection middleware
+2021-11-27 01:17:15,092 INFO 26612 [egg-security] use xframe middleware
+2021-11-27 01:17:15,093 INFO 26612 [egg-security] use dta middleware
+2021-11-27 01:17:15,093 INFO 26612 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:17:15,106 INFO 26612 [egg:core] dump config after load, 6ms
+2021-11-27 01:17:15,138 INFO 26612 [egg-watcher:application] watcher start success
+2021-11-27 01:17:15,141 INFO 26612 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:17:15 GMT+0800 (香港标准时间)
+2021-11-27 01:17:15,150 INFO 26612 [egg:core] dump config after ready, 7ms
+2021-11-27 01:36:31,895 INFO 29128 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:36:31,932 INFO 29128 [egg-multipart] stream mode enable
+2021-11-27 01:36:31,932 INFO 29128 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:36:32,122 INFO 29128 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:36:32,125 INFO 29128 [egg-security] use csrf middleware
+2021-11-27 01:36:32,127 INFO 29128 [egg-security] use methodnoallow middleware
+2021-11-27 01:36:32,127 INFO 29128 [egg-security] use noopen middleware
+2021-11-27 01:36:32,128 INFO 29128 [egg-security] use nosniff middleware
+2021-11-27 01:36:32,129 INFO 29128 [egg-security] use xssProtection middleware
+2021-11-27 01:36:32,130 INFO 29128 [egg-security] use xframe middleware
+2021-11-27 01:36:32,130 INFO 29128 [egg-security] use dta middleware
+2021-11-27 01:36:32,130 INFO 29128 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:36:32,144 INFO 29128 [egg:core] dump config after load, 6ms
+2021-11-27 01:36:32,169 INFO 29128 [egg-watcher:application] watcher start success
+2021-11-27 01:36:32,173 INFO 29128 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:36:32 GMT+0800 (香港标准时间)
+2021-11-27 01:36:32,181 INFO 29128 [egg:core] dump config after ready, 6ms
+2021-11-27 01:36:33,668 INFO 17940 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 01:36:33,703 INFO 17940 [egg-multipart] stream mode enable
+2021-11-27 01:36:33,704 INFO 17940 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 01:36:33,886 INFO 17940 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 01:36:33,889 INFO 17940 [egg-security] use csrf middleware
+2021-11-27 01:36:33,890 INFO 17940 [egg-security] use methodnoallow middleware
+2021-11-27 01:36:33,891 INFO 17940 [egg-security] use noopen middleware
+2021-11-27 01:36:33,892 INFO 17940 [egg-security] use nosniff middleware
+2021-11-27 01:36:33,893 INFO 17940 [egg-security] use xssProtection middleware
+2021-11-27 01:36:33,893 INFO 17940 [egg-security] use xframe middleware
+2021-11-27 01:36:33,894 INFO 17940 [egg-security] use dta middleware
+2021-11-27 01:36:33,894 INFO 17940 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 01:36:33,907 INFO 17940 [egg:core] dump config after load, 5ms
+2021-11-27 01:36:33,934 INFO 17940 [egg-watcher:application] watcher start success
+2021-11-27 01:36:33,938 INFO 17940 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 01:36:33 GMT+0800 (香港标准时间)
+2021-11-27 01:36:33,946 INFO 17940 [egg:core] dump config after ready, 6ms
+2021-11-27 11:02:00,591 INFO 9144 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:02:00,633 INFO 9144 [egg-multipart] stream mode enable
+2021-11-27 11:02:00,634 INFO 9144 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:02:01,030 INFO 9144 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:02:01,035 INFO 9144 [egg-security] use csrf middleware
+2021-11-27 11:02:01,037 INFO 9144 [egg-security] use methodnoallow middleware
+2021-11-27 11:02:01,037 INFO 9144 [egg-security] use noopen middleware
+2021-11-27 11:02:01,039 INFO 9144 [egg-security] use nosniff middleware
+2021-11-27 11:02:01,040 INFO 9144 [egg-security] use xssProtection middleware
+2021-11-27 11:02:01,041 INFO 9144 [egg-security] use xframe middleware
+2021-11-27 11:02:01,042 INFO 9144 [egg-security] use dta middleware
+2021-11-27 11:02:01,042 INFO 9144 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:02:01,061 INFO 9144 [egg:core] dump config after load, 8ms
+2021-11-27 11:02:01,089 INFO 9144 [egg-watcher:application] watcher start success
+2021-11-27 11:02:01,093 INFO 9144 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:02:01 GMT+0800 (香港标准时间)
+2021-11-27 11:02:01,102 INFO 9144 [egg:core] dump config after ready, 7ms
+2021-11-27 11:02:02,647 INFO 336 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:02:02,680 INFO 336 [egg-multipart] stream mode enable
+2021-11-27 11:02:02,680 INFO 336 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:02:02,849 INFO 336 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:02:02,853 INFO 336 [egg-security] use csrf middleware
+2021-11-27 11:02:02,854 INFO 336 [egg-security] use methodnoallow middleware
+2021-11-27 11:02:02,854 INFO 336 [egg-security] use noopen middleware
+2021-11-27 11:02:02,855 INFO 336 [egg-security] use nosniff middleware
+2021-11-27 11:02:02,856 INFO 336 [egg-security] use xssProtection middleware
+2021-11-27 11:02:02,857 INFO 336 [egg-security] use xframe middleware
+2021-11-27 11:02:02,857 INFO 336 [egg-security] use dta middleware
+2021-11-27 11:02:02,857 INFO 336 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:02:02,870 INFO 336 [egg:core] dump config after load, 6ms
+2021-11-27 11:02:02,894 INFO 336 [egg-watcher:application] watcher start success
+2021-11-27 11:02:02,897 INFO 336 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:02:02 GMT+0800 (香港标准时间)
+2021-11-27 11:02:02,905 INFO 336 [egg:core] dump config after ready, 6ms
+2021-11-27 11:41:37,039 INFO 5044 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:41:37,076 INFO 5044 [egg-multipart] stream mode enable
+2021-11-27 11:41:37,076 INFO 5044 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:41:37,262 INFO 5044 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:41:37,266 INFO 5044 [egg-security] use csrf middleware
+2021-11-27 11:41:37,268 INFO 5044 [egg-security] use methodnoallow middleware
+2021-11-27 11:41:37,268 INFO 5044 [egg-security] use noopen middleware
+2021-11-27 11:41:37,269 INFO 5044 [egg-security] use nosniff middleware
+2021-11-27 11:41:37,270 INFO 5044 [egg-security] use xssProtection middleware
+2021-11-27 11:41:37,271 INFO 5044 [egg-security] use xframe middleware
+2021-11-27 11:41:37,271 INFO 5044 [egg-security] use dta middleware
+2021-11-27 11:41:37,271 INFO 5044 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:41:37,284 INFO 5044 [egg:core] dump config after load, 6ms
+2021-11-27 11:41:37,310 INFO 5044 [egg-watcher:application] watcher start success
+2021-11-27 11:41:37,314 INFO 5044 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:41:37 GMT+0800 (香港标准时间)
+2021-11-27 11:41:37,322 INFO 5044 [egg:core] dump config after ready, 6ms
+2021-11-27 11:43:41,620 INFO 13296 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:43:41,657 INFO 13296 [egg-multipart] stream mode enable
+2021-11-27 11:43:41,657 INFO 13296 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:43:41,844 INFO 13296 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:43:41,847 INFO 13296 [egg-security] use csrf middleware
+2021-11-27 11:43:41,848 INFO 13296 [egg-security] use methodnoallow middleware
+2021-11-27 11:43:41,849 INFO 13296 [egg-security] use noopen middleware
+2021-11-27 11:43:41,850 INFO 13296 [egg-security] use nosniff middleware
+2021-11-27 11:43:41,851 INFO 13296 [egg-security] use xssProtection middleware
+2021-11-27 11:43:41,852 INFO 13296 [egg-security] use xframe middleware
+2021-11-27 11:43:41,853 INFO 13296 [egg-security] use dta middleware
+2021-11-27 11:43:41,853 INFO 13296 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:43:41,865 INFO 13296 [egg:core] dump config after load, 6ms
+2021-11-27 11:43:41,891 INFO 13296 [egg-watcher:application] watcher start success
+2021-11-27 11:43:41,895 INFO 13296 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:43:41 GMT+0800 (香港标准时间)
+2021-11-27 11:43:41,903 INFO 13296 [egg:core] dump config after ready, 6ms
+2021-11-27 11:44:01,261 INFO 10140 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:44:01,296 INFO 10140 [egg-multipart] stream mode enable
+2021-11-27 11:44:01,297 INFO 10140 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:44:01,493 INFO 10140 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:44:01,497 INFO 10140 [egg-security] use csrf middleware
+2021-11-27 11:44:01,498 INFO 10140 [egg-security] use methodnoallow middleware
+2021-11-27 11:44:01,499 INFO 10140 [egg-security] use noopen middleware
+2021-11-27 11:44:01,500 INFO 10140 [egg-security] use nosniff middleware
+2021-11-27 11:44:01,500 INFO 10140 [egg-security] use xssProtection middleware
+2021-11-27 11:44:01,501 INFO 10140 [egg-security] use xframe middleware
+2021-11-27 11:44:01,502 INFO 10140 [egg-security] use dta middleware
+2021-11-27 11:44:01,502 INFO 10140 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:44:01,514 INFO 10140 [egg:core] dump config after load, 6ms
+2021-11-27 11:44:01,540 INFO 10140 [egg-watcher:application] watcher start success
+2021-11-27 11:44:01,543 INFO 10140 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:44:01 GMT+0800 (香港标准时间)
+2021-11-27 11:44:01,552 INFO 10140 [egg:core] dump config after ready, 7ms
+2021-11-27 11:45:33,208 INFO 2936 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:45:33,247 INFO 2936 [egg-multipart] stream mode enable
+2021-11-27 11:45:33,247 INFO 2936 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:45:33,433 INFO 2936 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:45:33,437 INFO 2936 [egg-security] use csrf middleware
+2021-11-27 11:45:33,438 INFO 2936 [egg-security] use methodnoallow middleware
+2021-11-27 11:45:33,439 INFO 2936 [egg-security] use noopen middleware
+2021-11-27 11:45:33,440 INFO 2936 [egg-security] use nosniff middleware
+2021-11-27 11:45:33,440 INFO 2936 [egg-security] use xssProtection middleware
+2021-11-27 11:45:33,441 INFO 2936 [egg-security] use xframe middleware
+2021-11-27 11:45:33,442 INFO 2936 [egg-security] use dta middleware
+2021-11-27 11:45:33,442 INFO 2936 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:45:33,456 INFO 2936 [egg:core] dump config after load, 6ms
+2021-11-27 11:45:33,482 INFO 2936 [egg-watcher:application] watcher start success
+2021-11-27 11:45:33,486 INFO 2936 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:45:33 GMT+0800 (香港标准时间)
+2021-11-27 11:45:33,494 INFO 2936 [egg:core] dump config after ready, 6ms
+2021-11-27 11:47:59,810 INFO 2852 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:47:59,851 INFO 2852 [egg-multipart] stream mode enable
+2021-11-27 11:47:59,852 INFO 2852 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:48:00,053 INFO 2852 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:48:00,057 INFO 2852 [egg-security] use csrf middleware
+2021-11-27 11:48:00,059 INFO 2852 [egg-security] use methodnoallow middleware
+2021-11-27 11:48:00,060 INFO 2852 [egg-security] use noopen middleware
+2021-11-27 11:48:00,061 INFO 2852 [egg-security] use nosniff middleware
+2021-11-27 11:48:00,062 INFO 2852 [egg-security] use xssProtection middleware
+2021-11-27 11:48:00,062 INFO 2852 [egg-security] use xframe middleware
+2021-11-27 11:48:00,063 INFO 2852 [egg-security] use dta middleware
+2021-11-27 11:48:00,063 INFO 2852 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:48:00,076 INFO 2852 [egg:core] dump config after load, 7ms
+2021-11-27 11:48:00,102 INFO 2852 [egg-watcher:application] watcher start success
+2021-11-27 11:48:00,105 INFO 2852 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:48:00 GMT+0800 (香港标准时间)
+2021-11-27 11:48:00,114 INFO 2852 [egg:core] dump config after ready, 7ms
+2021-11-27 11:48:15,651 INFO 19204 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 11:48:15,686 INFO 19204 [egg-multipart] stream mode enable
+2021-11-27 11:48:15,687 INFO 19204 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 11:48:15,871 INFO 19204 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 11:48:15,875 INFO 19204 [egg-security] use csrf middleware
+2021-11-27 11:48:15,876 INFO 19204 [egg-security] use methodnoallow middleware
+2021-11-27 11:48:15,877 INFO 19204 [egg-security] use noopen middleware
+2021-11-27 11:48:15,878 INFO 19204 [egg-security] use nosniff middleware
+2021-11-27 11:48:15,879 INFO 19204 [egg-security] use xssProtection middleware
+2021-11-27 11:48:15,880 INFO 19204 [egg-security] use xframe middleware
+2021-11-27 11:48:15,880 INFO 19204 [egg-security] use dta middleware
+2021-11-27 11:48:15,880 INFO 19204 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 11:48:15,893 INFO 19204 [egg:core] dump config after load, 6ms
+2021-11-27 11:48:15,919 INFO 19204 [egg-watcher:application] watcher start success
+2021-11-27 11:48:15,923 INFO 19204 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 11:48:15 GMT+0800 (香港标准时间)
+2021-11-27 11:48:15,932 INFO 19204 [egg:core] dump config after ready, 7ms
+2021-11-27 12:01:33,482 INFO 14556 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:01:33,517 INFO 14556 [egg-multipart] stream mode enable
+2021-11-27 12:01:33,518 INFO 14556 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:01:33,701 INFO 14556 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:01:33,705 INFO 14556 [egg-security] use csrf middleware
+2021-11-27 12:01:33,706 INFO 14556 [egg-security] use methodnoallow middleware
+2021-11-27 12:01:33,707 INFO 14556 [egg-security] use noopen middleware
+2021-11-27 12:01:33,708 INFO 14556 [egg-security] use nosniff middleware
+2021-11-27 12:01:33,708 INFO 14556 [egg-security] use xssProtection middleware
+2021-11-27 12:01:33,709 INFO 14556 [egg-security] use xframe middleware
+2021-11-27 12:01:33,710 INFO 14556 [egg-security] use dta middleware
+2021-11-27 12:01:33,710 INFO 14556 [egg-security] compose 7 middlewares into one security middleware
+2021-11-27 12:01:33,723 INFO 14556 [egg:core] dump config after load, 6ms
+2021-11-27 12:01:33,754 INFO 14556 [egg-watcher:application] watcher start success
+2021-11-27 12:01:33,758 INFO 14556 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:01:33 GMT+0800 (香港标准时间)
+2021-11-27 12:01:33,767 INFO 14556 [egg:core] dump config after ready, 7ms
+2021-11-27 12:12:07,397 INFO 10136 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:12:07,434 INFO 10136 [egg-multipart] stream mode enable
+2021-11-27 12:12:07,435 INFO 10136 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:12:07,626 INFO 10136 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:12:07,628 INFO 10136 [egg-security] use methodnoallow middleware
+2021-11-27 12:12:07,629 INFO 10136 [egg-security] use noopen middleware
+2021-11-27 12:12:07,630 INFO 10136 [egg-security] use nosniff middleware
+2021-11-27 12:12:07,631 INFO 10136 [egg-security] use xssProtection middleware
+2021-11-27 12:12:07,632 INFO 10136 [egg-security] use xframe middleware
+2021-11-27 12:12:07,633 INFO 10136 [egg-security] use dta middleware
+2021-11-27 12:12:07,633 INFO 10136 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:12:07,645 INFO 10136 [egg:core] dump config after load, 5ms
+2021-11-27 12:12:07,671 INFO 10136 [egg-watcher:application] watcher start success
+2021-11-27 12:12:07,675 INFO 10136 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:12:07 GMT+0800 (香港标准时间)
+2021-11-27 12:12:07,683 INFO 10136 [egg:core] dump config after ready, 6ms
+2021-11-27 12:12:09,277 INFO 6320 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:12:09,312 INFO 6320 [egg-multipart] stream mode enable
+2021-11-27 12:12:09,313 INFO 6320 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:12:09,488 INFO 6320 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:12:09,490 INFO 6320 [egg-security] use methodnoallow middleware
+2021-11-27 12:12:09,491 INFO 6320 [egg-security] use noopen middleware
+2021-11-27 12:12:09,492 INFO 6320 [egg-security] use nosniff middleware
+2021-11-27 12:12:09,493 INFO 6320 [egg-security] use xssProtection middleware
+2021-11-27 12:12:09,493 INFO 6320 [egg-security] use xframe middleware
+2021-11-27 12:12:09,494 INFO 6320 [egg-security] use dta middleware
+2021-11-27 12:12:09,494 INFO 6320 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:12:09,506 INFO 6320 [egg:core] dump config after load, 6ms
+2021-11-27 12:12:09,531 INFO 6320 [egg-watcher:application] watcher start success
+2021-11-27 12:12:09,535 INFO 6320 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:12:09 GMT+0800 (香港标准时间)
+2021-11-27 12:12:09,543 INFO 6320 [egg:core] dump config after ready, 6ms
+2021-11-27 12:12:31,837 INFO 19084 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:12:31,876 INFO 19084 [egg-multipart] stream mode enable
+2021-11-27 12:12:31,877 INFO 19084 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:12:32,072 INFO 19084 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:12:32,075 INFO 19084 [egg-security] use methodnoallow middleware
+2021-11-27 12:12:32,076 INFO 19084 [egg-security] use noopen middleware
+2021-11-27 12:12:32,077 INFO 19084 [egg-security] use nosniff middleware
+2021-11-27 12:12:32,078 INFO 19084 [egg-security] use xssProtection middleware
+2021-11-27 12:12:32,079 INFO 19084 [egg-security] use xframe middleware
+2021-11-27 12:12:32,079 INFO 19084 [egg-security] use dta middleware
+2021-11-27 12:12:32,079 INFO 19084 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:12:32,092 INFO 19084 [egg:core] dump config after load, 6ms
+2021-11-27 12:12:32,118 INFO 19084 [egg-watcher:application] watcher start success
+2021-11-27 12:12:32,122 INFO 19084 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:12:32 GMT+0800 (香港标准时间)
+2021-11-27 12:12:32,132 INFO 19084 [egg:core] dump config after ready, 7ms
+2021-11-27 12:14:11,336 INFO 5172 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:14:11,372 INFO 5172 [egg-multipart] stream mode enable
+2021-11-27 12:14:11,373 INFO 5172 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:14:11,558 INFO 5172 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:14:11,561 INFO 5172 [egg-security] use methodnoallow middleware
+2021-11-27 12:14:11,562 INFO 5172 [egg-security] use noopen middleware
+2021-11-27 12:14:11,563 INFO 5172 [egg-security] use nosniff middleware
+2021-11-27 12:14:11,563 INFO 5172 [egg-security] use xssProtection middleware
+2021-11-27 12:14:11,564 INFO 5172 [egg-security] use xframe middleware
+2021-11-27 12:14:11,565 INFO 5172 [egg-security] use dta middleware
+2021-11-27 12:14:11,565 INFO 5172 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:14:11,578 INFO 5172 [egg:core] dump config after load, 7ms
+2021-11-27 12:14:11,605 INFO 5172 [egg-watcher:application] watcher start success
+2021-11-27 12:14:11,609 INFO 5172 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:14:11 GMT+0800 (香港标准时间)
+2021-11-27 12:14:11,617 INFO 5172 [egg:core] dump config after ready, 6ms
+2021-11-27 12:14:31,241 INFO 12620 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:14:31,279 INFO 12620 [egg-multipart] stream mode enable
+2021-11-27 12:14:31,279 INFO 12620 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:14:31,463 INFO 12620 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:14:31,466 INFO 12620 [egg-security] use methodnoallow middleware
+2021-11-27 12:14:31,467 INFO 12620 [egg-security] use noopen middleware
+2021-11-27 12:14:31,468 INFO 12620 [egg-security] use nosniff middleware
+2021-11-27 12:14:31,469 INFO 12620 [egg-security] use xssProtection middleware
+2021-11-27 12:14:31,469 INFO 12620 [egg-security] use xframe middleware
+2021-11-27 12:14:31,470 INFO 12620 [egg-security] use dta middleware
+2021-11-27 12:14:31,470 INFO 12620 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:14:31,483 INFO 12620 [egg:core] dump config after load, 6ms
+2021-11-27 12:14:31,511 INFO 12620 [egg-watcher:application] watcher start success
+2021-11-27 12:14:31,513 INFO 12620 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:14:31 GMT+0800 (香港标准时间)
+2021-11-27 12:14:31,521 INFO 12620 [egg:core] dump config after ready, 6ms
+2021-11-27 12:16:35,846 INFO 9836 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:16:35,893 INFO 9836 [egg-multipart] stream mode enable
+2021-11-27 12:16:35,894 INFO 9836 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:16:36,106 INFO 9836 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:16:36,110 INFO 9836 [egg-security] use methodnoallow middleware
+2021-11-27 12:16:36,111 INFO 9836 [egg-security] use noopen middleware
+2021-11-27 12:16:36,113 INFO 9836 [egg-security] use nosniff middleware
+2021-11-27 12:16:36,114 INFO 9836 [egg-security] use xssProtection middleware
+2021-11-27 12:16:36,115 INFO 9836 [egg-security] use xframe middleware
+2021-11-27 12:16:36,115 INFO 9836 [egg-security] use dta middleware
+2021-11-27 12:16:36,115 INFO 9836 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:16:36,131 INFO 9836 [egg:core] dump config after load, 7ms
+2021-11-27 12:16:36,160 INFO 9836 [egg-watcher:application] watcher start success
+2021-11-27 12:16:36,164 INFO 9836 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:16:36 GMT+0800 (香港标准时间)
+2021-11-27 12:16:36,174 INFO 9836 [egg:core] dump config after ready, 8ms
+2021-11-27 12:17:51,840 INFO 11660 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:17:51,874 INFO 11660 [egg-multipart] stream mode enable
+2021-11-27 12:17:51,874 INFO 11660 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:17:52,047 INFO 11660 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:17:52,050 INFO 11660 [egg-security] use methodnoallow middleware
+2021-11-27 12:17:52,051 INFO 11660 [egg-security] use noopen middleware
+2021-11-27 12:17:52,051 INFO 11660 [egg-security] use nosniff middleware
+2021-11-27 12:17:52,052 INFO 11660 [egg-security] use xssProtection middleware
+2021-11-27 12:17:52,053 INFO 11660 [egg-security] use xframe middleware
+2021-11-27 12:17:52,053 INFO 11660 [egg-security] use dta middleware
+2021-11-27 12:17:52,053 INFO 11660 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:17:52,066 INFO 11660 [egg:core] dump config after load, 6ms
+2021-11-27 12:17:52,091 INFO 11660 [egg-watcher:application] watcher start success
+2021-11-27 12:17:52,095 INFO 11660 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:17:52 GMT+0800 (香港标准时间)
+2021-11-27 12:17:52,103 INFO 11660 [egg:core] dump config after ready, 6ms
+2021-11-27 12:18:11,860 INFO 11748 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:18:11,896 INFO 11748 [egg-multipart] stream mode enable
+2021-11-27 12:18:11,897 INFO 11748 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:18:12,082 INFO 11748 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:18:12,085 INFO 11748 [egg-security] use methodnoallow middleware
+2021-11-27 12:18:12,086 INFO 11748 [egg-security] use noopen middleware
+2021-11-27 12:18:12,087 INFO 11748 [egg-security] use nosniff middleware
+2021-11-27 12:18:12,087 INFO 11748 [egg-security] use xssProtection middleware
+2021-11-27 12:18:12,088 INFO 11748 [egg-security] use xframe middleware
+2021-11-27 12:18:12,089 INFO 11748 [egg-security] use dta middleware
+2021-11-27 12:18:12,089 INFO 11748 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:18:12,102 INFO 11748 [egg:core] dump config after load, 6ms
+2021-11-27 12:18:12,129 INFO 11748 [egg-watcher:application] watcher start success
+2021-11-27 12:18:12,133 INFO 11748 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:18:12 GMT+0800 (香港标准时间)
+2021-11-27 12:18:12,141 INFO 11748 [egg:core] dump config after ready, 6ms
+2021-11-27 12:20:40,123 INFO 18336 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:20:40,159 INFO 18336 [egg-multipart] stream mode enable
+2021-11-27 12:20:40,159 INFO 18336 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:20:40,335 INFO 18336 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:20:40,338 INFO 18336 [egg-security] use methodnoallow middleware
+2021-11-27 12:20:40,339 INFO 18336 [egg-security] use noopen middleware
+2021-11-27 12:20:40,340 INFO 18336 [egg-security] use nosniff middleware
+2021-11-27 12:20:40,340 INFO 18336 [egg-security] use xssProtection middleware
+2021-11-27 12:20:40,341 INFO 18336 [egg-security] use xframe middleware
+2021-11-27 12:20:40,341 INFO 18336 [egg-security] use dta middleware
+2021-11-27 12:20:40,342 INFO 18336 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:20:40,353 INFO 18336 [egg:core] dump config after load, 5ms
+2021-11-27 12:20:40,377 INFO 18336 [egg-watcher:application] watcher start success
+2021-11-27 12:20:40,381 INFO 18336 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:20:40 GMT+0800 (香港标准时间)
+2021-11-27 12:20:40,389 INFO 18336 [egg:core] dump config after ready, 6ms
+2021-11-27 12:21:29,718 INFO 18444 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:21:29,753 INFO 18444 [egg-multipart] stream mode enable
+2021-11-27 12:21:29,753 INFO 18444 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:21:29,941 INFO 18444 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:21:29,944 INFO 18444 [egg-security] use methodnoallow middleware
+2021-11-27 12:21:29,945 INFO 18444 [egg-security] use noopen middleware
+2021-11-27 12:21:29,946 INFO 18444 [egg-security] use nosniff middleware
+2021-11-27 12:21:29,946 INFO 18444 [egg-security] use xssProtection middleware
+2021-11-27 12:21:29,947 INFO 18444 [egg-security] use xframe middleware
+2021-11-27 12:21:29,948 INFO 18444 [egg-security] use dta middleware
+2021-11-27 12:21:29,948 INFO 18444 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:21:29,961 INFO 18444 [egg:core] dump config after load, 6ms
+2021-11-27 12:21:29,987 INFO 18444 [egg-watcher:application] watcher start success
+2021-11-27 12:21:29,989 INFO 18444 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:21:29 GMT+0800 (香港标准时间)
+2021-11-27 12:21:29,998 INFO 18444 [egg:core] dump config after ready, 7ms
+2021-11-27 12:23:13,587 INFO 19084 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 12:23:13,621 INFO 19084 [egg-multipart] stream mode enable
+2021-11-27 12:23:13,621 INFO 19084 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 12:23:13,828 INFO 19084 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 12:23:13,832 INFO 19084 [egg-security] use methodnoallow middleware
+2021-11-27 12:23:13,833 INFO 19084 [egg-security] use noopen middleware
+2021-11-27 12:23:13,834 INFO 19084 [egg-security] use nosniff middleware
+2021-11-27 12:23:13,835 INFO 19084 [egg-security] use xssProtection middleware
+2021-11-27 12:23:13,836 INFO 19084 [egg-security] use xframe middleware
+2021-11-27 12:23:13,837 INFO 19084 [egg-security] use dta middleware
+2021-11-27 12:23:13,837 INFO 19084 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 12:23:13,851 INFO 19084 [egg:core] dump config after load, 7ms
+2021-11-27 12:23:13,878 INFO 19084 [egg-watcher:application] watcher start success
+2021-11-27 12:23:13,882 INFO 19084 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 12:23:13 GMT+0800 (香港标准时间)
+2021-11-27 12:23:13,890 INFO 19084 [egg:core] dump config after ready, 6ms
+2021-11-27 21:45:47,712 INFO 21420 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 21:45:47,748 INFO 21420 [egg-multipart] stream mode enable
+2021-11-27 21:45:47,748 INFO 21420 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 21:45:47,972 INFO 21420 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 21:45:47,976 INFO 21420 [egg-security] use methodnoallow middleware
+2021-11-27 21:45:47,977 INFO 21420 [egg-security] use noopen middleware
+2021-11-27 21:45:47,978 INFO 21420 [egg-security] use nosniff middleware
+2021-11-27 21:45:47,978 INFO 21420 [egg-security] use xssProtection middleware
+2021-11-27 21:45:47,979 INFO 21420 [egg-security] use xframe middleware
+2021-11-27 21:45:47,980 INFO 21420 [egg-security] use dta middleware
+2021-11-27 21:45:47,980 INFO 21420 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 21:45:47,994 INFO 21420 [egg:core] dump config after load, 7ms
+2021-11-27 21:45:48,018 INFO 21420 [egg-watcher:application] watcher start success
+2021-11-27 21:45:48,023 INFO 21420 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 21:45:48 GMT+0800 (香港标准时间)
+2021-11-27 21:45:48,032 INFO 21420 [egg:core] dump config after ready, 6ms
+2021-11-27 21:45:49,643 INFO 1008 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 21:45:49,678 INFO 1008 [egg-multipart] stream mode enable
+2021-11-27 21:45:49,679 INFO 1008 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 21:45:49,855 INFO 1008 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 21:45:49,858 INFO 1008 [egg-security] use methodnoallow middleware
+2021-11-27 21:45:49,859 INFO 1008 [egg-security] use noopen middleware
+2021-11-27 21:45:49,860 INFO 1008 [egg-security] use nosniff middleware
+2021-11-27 21:45:49,860 INFO 1008 [egg-security] use xssProtection middleware
+2021-11-27 21:45:49,861 INFO 1008 [egg-security] use xframe middleware
+2021-11-27 21:45:49,862 INFO 1008 [egg-security] use dta middleware
+2021-11-27 21:45:49,862 INFO 1008 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 21:45:49,874 INFO 1008 [egg:core] dump config after load, 6ms
+2021-11-27 21:45:49,902 INFO 1008 [egg-watcher:application] watcher start success
+2021-11-27 21:45:49,906 INFO 1008 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 21:45:49 GMT+0800 (香港标准时间)
+2021-11-27 21:45:49,914 INFO 1008 [egg:core] dump config after ready, 6ms
+2021-11-27 22:49:29,008 WARN 1008 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-11-27 22:49:29,690 WARN 1008 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-11-27 22:56:57,461 INFO 1076 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 22:56:57,542 INFO 1076 [egg-multipart] stream mode enable
+2021-11-27 22:56:57,543 INFO 1076 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 22:56:58,010 INFO 1076 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 22:56:58,016 INFO 1076 [egg-security] use methodnoallow middleware
+2021-11-27 22:56:58,018 INFO 1076 [egg-security] use noopen middleware
+2021-11-27 22:56:58,019 INFO 1076 [egg-security] use nosniff middleware
+2021-11-27 22:56:58,021 INFO 1076 [egg-security] use xssProtection middleware
+2021-11-27 22:56:58,022 INFO 1076 [egg-security] use xframe middleware
+2021-11-27 22:56:58,024 INFO 1076 [egg-security] use dta middleware
+2021-11-27 22:56:58,024 INFO 1076 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 22:56:58,056 INFO 1076 [egg:core] dump config after load, 14ms
+2021-11-27 22:56:58,126 INFO 1076 [egg-watcher:application] watcher start success
+2021-11-27 22:56:58,136 INFO 1076 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 22:56:58 GMT+0800 (香港标准时间)
+2021-11-27 22:56:58,161 INFO 1076 [egg:core] dump config after ready, 19ms
+2021-11-27 22:57:02,063 INFO 15652 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 22:57:02,170 INFO 15652 [egg-multipart] stream mode enable
+2021-11-27 22:57:02,172 INFO 15652 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 22:57:02,695 INFO 15652 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 22:57:02,704 INFO 15652 [egg-security] use methodnoallow middleware
+2021-11-27 22:57:02,707 INFO 15652 [egg-security] use noopen middleware
+2021-11-27 22:57:02,709 INFO 15652 [egg-security] use nosniff middleware
+2021-11-27 22:57:02,711 INFO 15652 [egg-security] use xssProtection middleware
+2021-11-27 22:57:02,714 INFO 15652 [egg-security] use xframe middleware
+2021-11-27 22:57:02,715 INFO 15652 [egg-security] use dta middleware
+2021-11-27 22:57:02,715 INFO 15652 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 22:57:02,744 INFO 15652 [egg:core] dump config after load, 16ms
+2021-11-27 22:57:02,813 INFO 15652 [egg-watcher:application] watcher start success
+2021-11-27 22:57:02,825 INFO 15652 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 22:57:02 GMT+0800 (香港标准时间)
+2021-11-27 22:57:02,853 INFO 15652 [egg:core] dump config after ready, 22ms
+2021-11-27 23:22:57,857 INFO 12512 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:22:58,034 INFO 12512 [egg-multipart] stream mode enable
+2021-11-27 23:22:58,036 INFO 12512 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:22:58,786 INFO 12512 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:22:58,793 INFO 12512 [egg-security] use methodnoallow middleware
+2021-11-27 23:22:58,797 INFO 12512 [egg-security] use noopen middleware
+2021-11-27 23:22:58,801 INFO 12512 [egg-security] use nosniff middleware
+2021-11-27 23:22:58,803 INFO 12512 [egg-security] use xssProtection middleware
+2021-11-27 23:22:58,805 INFO 12512 [egg-security] use xframe middleware
+2021-11-27 23:22:58,807 INFO 12512 [egg-security] use dta middleware
+2021-11-27 23:22:58,807 INFO 12512 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:22:58,848 INFO 12512 [egg:core] dump config after load, 18ms
+2021-11-27 23:22:58,940 INFO 12512 [egg-watcher:application] watcher start success
+2021-11-27 23:22:58,951 INFO 12512 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:22:58 GMT+0800 (香港标准时间)
+2021-11-27 23:22:58,993 INFO 12512 [egg:core] dump config after ready, 31ms
+2021-11-27 23:33:14,776 INFO 15604 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:33:14,811 INFO 15604 [egg-multipart] stream mode enable
+2021-11-27 23:33:14,811 INFO 15604 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:33:14,993 INFO 15604 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:33:14,996 INFO 15604 [egg-security] use methodnoallow middleware
+2021-11-27 23:33:14,996 INFO 15604 [egg-security] use noopen middleware
+2021-11-27 23:33:14,997 INFO 15604 [egg-security] use nosniff middleware
+2021-11-27 23:33:14,998 INFO 15604 [egg-security] use xssProtection middleware
+2021-11-27 23:33:14,999 INFO 15604 [egg-security] use xframe middleware
+2021-11-27 23:33:14,999 INFO 15604 [egg-security] use dta middleware
+2021-11-27 23:33:15,000 INFO 15604 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:33:15,013 INFO 15604 [egg:core] dump config after load, 7ms
+2021-11-27 23:33:15,041 INFO 15604 [egg-watcher:application] watcher start success
+2021-11-27 23:33:15,045 INFO 15604 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:33:15 GMT+0800 (香港标准时间)
+2021-11-27 23:33:15,054 INFO 15604 [egg:core] dump config after ready, 7ms
+2021-11-27 23:33:50,435 INFO 4660 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:33:50,470 INFO 4660 [egg-multipart] stream mode enable
+2021-11-27 23:33:50,470 INFO 4660 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:33:50,648 INFO 4660 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:33:50,651 INFO 4660 [egg-security] use methodnoallow middleware
+2021-11-27 23:33:50,652 INFO 4660 [egg-security] use noopen middleware
+2021-11-27 23:33:50,653 INFO 4660 [egg-security] use nosniff middleware
+2021-11-27 23:33:50,654 INFO 4660 [egg-security] use xssProtection middleware
+2021-11-27 23:33:50,655 INFO 4660 [egg-security] use xframe middleware
+2021-11-27 23:33:50,655 INFO 4660 [egg-security] use dta middleware
+2021-11-27 23:33:50,656 INFO 4660 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:33:50,668 INFO 4660 [egg:core] dump config after load, 6ms
+2021-11-27 23:33:50,692 INFO 4660 [egg-watcher:application] watcher start success
+2021-11-27 23:33:50,695 INFO 4660 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:33:50 GMT+0800 (香港标准时间)
+2021-11-27 23:33:50,704 INFO 4660 [egg:core] dump config after ready, 7ms
+2021-11-27 23:34:19,565 INFO 21292 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:34:19,603 INFO 21292 [egg-multipart] stream mode enable
+2021-11-27 23:34:19,603 INFO 21292 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:34:19,787 INFO 21292 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:34:19,790 INFO 21292 [egg-security] use methodnoallow middleware
+2021-11-27 23:34:19,791 INFO 21292 [egg-security] use noopen middleware
+2021-11-27 23:34:19,792 INFO 21292 [egg-security] use nosniff middleware
+2021-11-27 23:34:19,792 INFO 21292 [egg-security] use xssProtection middleware
+2021-11-27 23:34:19,793 INFO 21292 [egg-security] use xframe middleware
+2021-11-27 23:34:19,794 INFO 21292 [egg-security] use dta middleware
+2021-11-27 23:34:19,794 INFO 21292 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:34:19,806 INFO 21292 [egg:core] dump config after load, 6ms
+2021-11-27 23:34:19,831 INFO 21292 [egg-watcher:application] watcher start success
+2021-11-27 23:34:19,834 INFO 21292 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:34:19 GMT+0800 (香港标准时间)
+2021-11-27 23:34:19,843 INFO 21292 [egg:core] dump config after ready, 7ms
+2021-11-27 23:35:22,440 INFO 8004 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:35:22,486 INFO 8004 [egg-multipart] stream mode enable
+2021-11-27 23:35:22,486 INFO 8004 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:35:22,665 INFO 8004 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:35:22,668 INFO 8004 [egg-security] use methodnoallow middleware
+2021-11-27 23:35:22,669 INFO 8004 [egg-security] use noopen middleware
+2021-11-27 23:35:22,670 INFO 8004 [egg-security] use nosniff middleware
+2021-11-27 23:35:22,671 INFO 8004 [egg-security] use xssProtection middleware
+2021-11-27 23:35:22,671 INFO 8004 [egg-security] use xframe middleware
+2021-11-27 23:35:22,672 INFO 8004 [egg-security] use dta middleware
+2021-11-27 23:35:22,672 INFO 8004 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:35:22,684 INFO 8004 [egg:core] dump config after load, 6ms
+2021-11-27 23:35:22,710 INFO 8004 [egg-watcher:application] watcher start success
+2021-11-27 23:35:22,714 INFO 8004 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:35:22 GMT+0800 (香港标准时间)
+2021-11-27 23:35:22,723 INFO 8004 [egg:core] dump config after ready, 7ms
+2021-11-27 23:35:49,315 INFO 17952 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:35:49,349 INFO 17952 [egg-multipart] stream mode enable
+2021-11-27 23:35:49,350 INFO 17952 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:35:49,528 INFO 17952 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:35:49,531 INFO 17952 [egg-security] use methodnoallow middleware
+2021-11-27 23:35:49,531 INFO 17952 [egg-security] use noopen middleware
+2021-11-27 23:35:49,532 INFO 17952 [egg-security] use nosniff middleware
+2021-11-27 23:35:49,533 INFO 17952 [egg-security] use xssProtection middleware
+2021-11-27 23:35:49,534 INFO 17952 [egg-security] use xframe middleware
+2021-11-27 23:35:49,534 INFO 17952 [egg-security] use dta middleware
+2021-11-27 23:35:49,535 INFO 17952 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:35:49,548 INFO 17952 [egg:core] dump config after load, 6ms
+2021-11-27 23:35:49,572 INFO 17952 [egg-watcher:application] watcher start success
+2021-11-27 23:35:49,575 INFO 17952 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:35:49 GMT+0800 (香港标准时间)
+2021-11-27 23:35:49,584 INFO 17952 [egg:core] dump config after ready, 7ms
+2021-11-27 23:48:35,073 INFO 744 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:48:35,107 INFO 744 [egg-multipart] stream mode enable
+2021-11-27 23:48:35,108 INFO 744 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:48:35,279 INFO 744 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:48:35,282 INFO 744 [egg-security] use methodnoallow middleware
+2021-11-27 23:48:35,283 INFO 744 [egg-security] use noopen middleware
+2021-11-27 23:48:35,284 INFO 744 [egg-security] use nosniff middleware
+2021-11-27 23:48:35,284 INFO 744 [egg-security] use xssProtection middleware
+2021-11-27 23:48:35,285 INFO 744 [egg-security] use xframe middleware
+2021-11-27 23:48:35,286 INFO 744 [egg-security] use dta middleware
+2021-11-27 23:48:35,286 INFO 744 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:48:35,298 INFO 744 [egg:core] dump config after load, 6ms
+2021-11-27 23:48:35,321 INFO 744 [egg-watcher:application] watcher start success
+2021-11-27 23:48:35,324 INFO 744 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:48:35 GMT+0800 (香港标准时间)
+2021-11-27 23:48:35,332 INFO 744 [egg:core] dump config after ready, 6ms
+2021-11-27 23:51:23,364 INFO 14204 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:51:23,413 INFO 14204 [egg-multipart] stream mode enable
+2021-11-27 23:51:23,413 INFO 14204 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:51:23,620 INFO 14204 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:51:23,624 INFO 14204 [egg-security] use methodnoallow middleware
+2021-11-27 23:51:23,625 INFO 14204 [egg-security] use noopen middleware
+2021-11-27 23:51:23,626 INFO 14204 [egg-security] use nosniff middleware
+2021-11-27 23:51:23,627 INFO 14204 [egg-security] use xssProtection middleware
+2021-11-27 23:51:23,628 INFO 14204 [egg-security] use xframe middleware
+2021-11-27 23:51:23,629 INFO 14204 [egg-security] use dta middleware
+2021-11-27 23:51:23,629 INFO 14204 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:51:23,645 INFO 14204 [egg:core] dump config after load, 6ms
+2021-11-27 23:51:23,670 INFO 14204 [egg-watcher:application] watcher start success
+2021-11-27 23:51:23,674 INFO 14204 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:51:23 GMT+0800 (香港标准时间)
+2021-11-27 23:51:23,682 INFO 14204 [egg:core] dump config after ready, 6ms
+2021-11-27 23:54:35,692 INFO 14556 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:54:35,726 INFO 14556 [egg-multipart] stream mode enable
+2021-11-27 23:54:35,727 INFO 14556 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:54:35,898 INFO 14556 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:54:35,901 INFO 14556 [egg-security] use methodnoallow middleware
+2021-11-27 23:54:35,902 INFO 14556 [egg-security] use noopen middleware
+2021-11-27 23:54:35,903 INFO 14556 [egg-security] use nosniff middleware
+2021-11-27 23:54:35,903 INFO 14556 [egg-security] use xssProtection middleware
+2021-11-27 23:54:35,904 INFO 14556 [egg-security] use xframe middleware
+2021-11-27 23:54:35,905 INFO 14556 [egg-security] use dta middleware
+2021-11-27 23:54:35,905 INFO 14556 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:54:35,916 INFO 14556 [egg:core] dump config after load, 5ms
+2021-11-27 23:54:35,940 INFO 14556 [egg-watcher:application] watcher start success
+2021-11-27 23:54:35,944 INFO 14556 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:54:35 GMT+0800 (香港标准时间)
+2021-11-27 23:54:35,953 INFO 14556 [egg:core] dump config after ready, 7ms
+2021-11-27 23:56:23,897 INFO 4940 [egg:logger] init all loggers with options: {"dir":"D:\\blog_dogett\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-27 23:56:23,940 INFO 4940 [egg-multipart] stream mode enable
+2021-11-27 23:56:23,940 INFO 4940 [egg-mysql] connecting root@localhost:3306/react_blog
+2021-11-27 23:56:24,115 INFO 4940 [egg-static] starting static serve /public/ -> D:\blog_dogett\service\app\public
+2021-11-27 23:56:24,118 INFO 4940 [egg-security] use methodnoallow middleware
+2021-11-27 23:56:24,119 INFO 4940 [egg-security] use noopen middleware
+2021-11-27 23:56:24,120 INFO 4940 [egg-security] use nosniff middleware
+2021-11-27 23:56:24,120 INFO 4940 [egg-security] use xssProtection middleware
+2021-11-27 23:56:24,121 INFO 4940 [egg-security] use xframe middleware
+2021-11-27 23:56:24,122 INFO 4940 [egg-security] use dta middleware
+2021-11-27 23:56:24,122 INFO 4940 [egg-security] compose 6 middlewares into one security middleware
+2021-11-27 23:56:24,133 INFO 4940 [egg:core] dump config after load, 5ms
+2021-11-27 23:56:24,158 INFO 4940 [egg-watcher:application] watcher start success
+2021-11-27 23:56:24,161 INFO 4940 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 27 2021 23:56:24 GMT+0800 (香港标准时间)
+2021-11-27 23:56:24,169 INFO 4940 [egg:core] dump config after ready, 6ms
+2021-11-28 00:00:00,027 INFO 4940 [egg-logrotator] clean all log before 31 days
+2021-11-28 00:00:01,024 INFO 4940 [egg-logrotator] broadcast log-reload
+2021-11-28 00:00:01,024 INFO 4940 [egg-logrotator] rotate files success by DayRotator, files ["D:\\blog_dogett\\service\\logs\\service\\common-error.log -> D:\\blog_dogett\\service\\logs\\service\\common-error.log.2021-11-27","D:\\blog_dogett\\service\\logs\\service\\service-web.log -> D:\\blog_dogett\\service\\logs\\service\\service-web.log.2021-11-27","D:\\blog_dogett\\service\\logs\\service\\egg-web.log -> D:\\blog_dogett\\service\\logs\\service\\egg-web.log.2021-11-27","D:\\blog_dogett\\service\\logs\\service\\egg-schedule.log -> D:\\blog_dogett\\service\\logs\\service\\egg-schedule.log.2021-11-27","D:\\blog_dogett\\service\\logs\\service\\egg-agent.log -> D:\\blog_dogett\\service\\logs\\service\\egg-agent.log.2021-11-27"]

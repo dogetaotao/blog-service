@@ -1,0 +1,17 @@
+2021-12-01 00:53:02,185 ERROR 10924 nodejs.ClusterClientNoResponseError: client no response in 103372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 10924
+hostname: DESKTOP-7GV4MC2
+
+2021-12-01 23:33:50,415 ERROR 22884 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 22884
+hostname: DESKTOP-7GV4MC2
+

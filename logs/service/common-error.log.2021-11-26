@@ -1,0 +1,8 @@
+2021-11-26 23:36:43,952 ERROR 24332 nodejs.ClusterClientNoResponseError: client no response in 1805784ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24332
+hostname: DESKTOP-7GV4MC2
+

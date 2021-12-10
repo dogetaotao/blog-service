@@ -1,0 +1,17 @@
+2021-11-28 00:01:13,176 ERROR 9568 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9568
+hostname: DESKTOP-7GV4MC2
+
+2021-11-28 00:26:12,684 ERROR 9568 nodejs.ClusterClientNoResponseError: client no response in 378941ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9568
+hostname: DESKTOP-7GV4MC2
+

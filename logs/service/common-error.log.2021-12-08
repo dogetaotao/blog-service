@@ -1,0 +1,58 @@
+2021-12-03 00:58:48,073 ERROR 21272 nodejs.ClusterClientNoResponseError: client no response in 1019936ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21272
+hostname: DESKTOP-7GV4MC2
+
+2021-12-03 13:31:12,134 ERROR 21272 nodejs.ClusterClientNoResponseError: client no response in 45142624ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21272
+hostname: DESKTOP-7GV4MC2
+
+2021-12-08 15:21:22,077 ERROR 17960 nodejs.ClusterClientNoResponseError: client no response in 989302ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17960
+hostname: DESKTOP-7GV4MC2
+
+2021-12-08 16:13:18,069 ERROR 17960 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17960
+hostname: DESKTOP-7GV4MC2
+
+2021-12-08 17:18:56,435 ERROR 17960 nodejs.ClusterClientNoResponseError: client no response in 1807143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17960
+hostname: DESKTOP-7GV4MC2
+
+2021-12-08 18:29:01,832 ERROR 17960 nodejs.ClusterClientNoResponseError: client no response in 4204216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog_dogett\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17960
+hostname: DESKTOP-7GV4MC2
+
+2021-12-08 23:11:30,830 ERROR 20776 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 20776
+hostname: DESKTOP-7GV4MC2
+
